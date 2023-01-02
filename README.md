@@ -2,7 +2,7 @@
 
 
 
-## [course design](./course design/index.html)
+## [course_design](./course design/index.html)
 
 
 
