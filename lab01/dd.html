@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>17绘制三个点-修改颜色</title>
+
+    <!-- 一组相关的JS库 -->
+    <script type="text/javascript" src="../webgl-utils.js"></script>
+    <script type="text/javascript" src="../initShaders.js"></script>
+    <script type="text/javascript" src="../glMatrix-0.9.5.min.js"></script>
+    <!-- 绘制三角形的JS代码 -->
+    <script type="text/javascript" src="../triangle_dd.js"></script>
+  </head>
+  <body onload="main()">
+    <canvas id="webgl" width="400" height="400">
+      不支持canvas的浏览器会展示这段文字
+    </canvas>
+
+    <script id="vertex-shader" type="x-shader/x-vertex">
+      // ============👇
+      // 顶点着色器程序
+      let VSHADER_SOURCE = `
+        attribute vec4 vPosition;
+        attribute vec4 fColor;
+        varying vec4 fColor; // varying变量
+        void main() {
+          gl_Position = vPosition;
+          gl_PointSize = 10.0;
+          v_Color = fColor; // 将数据传给片元着色器
+        }
+    </script>
+	<script id="fragment-shader" type="x-shader/x-fragment">
+      // 片元着色器程序
+      let FSHADER_SOURCE = `
+        precision mediump float; // 精度限定词-来指定变量的范围和精度，这里是中等精度
+        varying vec4 fColor;
+        void main() {
+          gl_FragColor = vec4( 0.0, 0.0, 0.0, 1.0 ); // 从顶点着色器接收数据
+        }
+    `;
+      // ============👆
+
+      // 主程序
+      attribute vec4 vPosition;
+      		
+      void main(){  
+      	gl_Position = vPosition;
+      }
+    </script>
+  </body>
+</html>
