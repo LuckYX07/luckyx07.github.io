@@ -1,44 +1,46 @@
-#LuckYX的计算机图形学展示页
+# LuckYX的计算机图形学展示页
 
 
 
-##[课程设计](../course design/index.html)
+## [course design](course design/index.html)
 
-##Lab01
 
-###[a](../lab01/aa.html)
 
-###[b](../lab01/bb.html)
+## Lab01
 
-###[c](../lab01/cc.html)
+### [a](lab01/aa.html)
 
-###[d](../lab01/dd.html)
+### [b](lab01/bb.html)
 
-###[e](../lab01/ee.html)
+### [c](lab01/cc.html)
 
-##Lab02
+### [d](lab01/dd.html)
 
-###[a](../lab02/a.html)
+### [e](lab01/ee.html)
 
-###[b](../lab02/b.html)
+## Lab02
 
-###[c](../lab02/c.html)
+### [a](lab02/a.html)
 
-###[d](../lab02/d.html)
+### [b](lab02/b.html)
 
-###[e](../lab02/e.html)
+### [c](lab02/c.html)
 
-##[Lab03](../lab03/111.html)
+### [d](lab02/d.html)
 
-##[Lab04](../lab04/index.html)
+### [e](lab02/e.html)
 
-##[Lab05](../lab05/index.html)
+## [Lab03](lab03/111.html)
 
-##[Lab06](../lab06/index.html)
+## [Lab04](lab04/index.html)
 
-##[Lab07](../lab07/index.html)
+## [Lab05](lab05/index.html)
 
-##[Lab08](../lab08/index.html)
+## [Lab06](lab06/index.html)
+
+## [Lab07](lab07/index.html)
+
+## [Lab08](lab08/index.html)
 
 
 
